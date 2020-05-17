@@ -1,0 +1,11 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+node_modules/
+.idea/
+/Umbraco.reCAPTCHAv3/umbraco/
+/Umbraco.reCAPTCHAv3/App_Data/
+/Umbraco.reCAPTCHAv3/dist/css/*.css
+/Umbraco.reCAPTCHAv3/dist/js/*.js
