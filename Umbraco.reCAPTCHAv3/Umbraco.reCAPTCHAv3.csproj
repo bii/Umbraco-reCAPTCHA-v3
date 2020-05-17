@@ -415,6 +415,10 @@
         <Content Include="Content\bootstrap-theme.min.css" />
         <Content Include="Content\bootstrap.css" />
         <Content Include="Content\bootstrap.min.css" />
+        <Content Include="dist\css\all.css" />
+        <Content Include="dist\css\README.md" />
+        <Content Include="dist\js\main.bundle.js" />
+        <Content Include="dist\js\README.md" />
         <Content Include="favicon.ico" />
         <Content Include="fonts\glyphicons-halflings-regular.svg" />
         <Content Include="Global.asax" />
@@ -428,8 +432,13 @@
         <Content Include="src\js\foundation.js" />
         <Content Include="src\js\main.js" />
         <Content Include="src\js\model.js" />
+        <Content Include="src\sass\form-icons.scss" />
         <Content Include="src\sass\foundation.scss" />
+        <Content Include="src\sass\main.scss" />
         <Content Include="src\sass\settings.scss" />
+        <Content Include="Views\home.cshtml" />
+        <Content Include="Views\master.cshtml" />
+        <Content Include="Views\Partials\form-icons.cshtml" />
         <Content Include="webpack.config.js" />
         <None Include="Config\ClientDependency.config" />
         <None Include="Config\HealthChecks.config" />
