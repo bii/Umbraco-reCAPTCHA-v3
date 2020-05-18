@@ -361,6 +361,7 @@
         <Compile Include="App_Start\FilterConfig.cs" />
         <Compile Include="App_Start\RouteConfig.cs" />
         <Compile Include="Controllers\HomeController.cs" />
+        <Compile Include="Controllers\RecaptchaController.cs" />
         <Compile Include="Global.asax.cs">
             <DependentUpon>Global.asax</DependentUpon>
         </Compile>
@@ -426,10 +427,11 @@
         <Content Include="package.json" />
         <Content Include="Scripts\bootstrap.js" />
         <Content Include="Scripts\bootstrap.min.js" />
-        <Content Include="src\js\car.js" />
+        <Content Include="src\js\account\register.js" />
+        <Content Include="src\js\constants.js" />
         <Content Include="src\js\foundation.js" />
         <Content Include="src\js\main.js" />
-        <Content Include="src\js\model.js" />
+        <Content Include="src\js\services\recaptchaApi.js" />
         <Content Include="src\sass\form-icons.scss" />
         <Content Include="src\sass\foundation.scss" />
         <Content Include="src\sass\main.scss" />
