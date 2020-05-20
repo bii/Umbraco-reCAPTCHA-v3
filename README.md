@@ -24,13 +24,17 @@ Run ```gulp js:watch``` watches for changes to _/src/js_ folder
 
 Run ```all:watch``` watches for changes to scss and js files in _/src/js_ and sass files in _/src/sass_, respectively
 
-Open solution in Visual Studio or Rider. Build and hit F5.
+### Install Umbraco
+
+Open the solution in Visual Studio or Rider. Build the solution and hit F5 or Ctrl + F5.
 
 Install Umbraco. After Installation navigate to uSync back-office and run a full import.
 
 Then navigate to the homepage and try the sign-up form.
 
 Open developer tools (in the browser), then console and see your score.
+
+### Future
 
 I will build a NuGet package for it in the near future hopefully, so you can install it more easily in your Umbraco 
 solution / project. 
