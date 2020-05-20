@@ -30,6 +30,8 @@ Open the solution in Visual Studio or Rider. Build the solution and hit F5 or Ct
 
 Install Umbraco. After Installation navigate to uSync back-office and run a full import.
 
+## See reCAPTCHA v3 in action
+
 Then navigate to the homepage and try the sign-up form.
 
 Open developer tools (in the browser), then console and see your score.
