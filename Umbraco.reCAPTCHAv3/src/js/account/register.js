@@ -5,8 +5,12 @@ class Register {
     constructor() {
         this.signUpButton = document.getElementById(Constants.signUpButtonSelector());
 
-        this.signUpButton.addEventListener('click', (e) => {
-            e.preventDefault();
+        window.addEventListener('load', (event) => {
+            
+        });
+
+        this.signUpButton.addEventListener('click', (event) => {
+            event.preventDefault();
 
             grecaptcha.ready(function () {
                 grecaptcha.execute(Constants.reCAPTCHASiteKey(), {action: 'signUp'}).then(function (token) {
