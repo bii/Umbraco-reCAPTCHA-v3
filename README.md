@@ -32,6 +32,10 @@ Install Umbraco. After Installation navigate to uSync back-office and run a full
 
 ## See reCAPTCHA v3 in action
 
+Add the reCAPTCHA secret key to your app settings
+
+```<add key="Recaptcha:Secret" value="" />```
+
 Then navigate to the homepage and try the sign-up form.
 
 Open developer tools (in the browser), then console and see your score.
@@ -39,4 +43,4 @@ Open developer tools (in the browser), then console and see your score.
 ## Future
 
 I will build a NuGet package for it in the near future hopefully, so you can install it more easily in your Umbraco 
-solution / project. 
+solution / project.
